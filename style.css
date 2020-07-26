@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+  }
+
+body{
+	display: grid;
+	place-items: center;
+	min-height: 450px;
+	height: 100vh;
+	margin: 0;
+	background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+	color: #fff;
+	font-family: 'Nunito', serif
+}
+
+.todoList {
+	display: grid;
+	place-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 320px;
+	height: 500px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+}
+
+.input1{
+	box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px rgba(#000, 0.4);
+	width: 200px;
+	height: 60px;
+	padding: 16px 32px;
+	text-align: center;
+	font-family: Cinzel;
+	border: none;
+	border-radius: 30px;
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+	
+}
+.btn{
+	box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);	width: 60px;
+    height: 40px !important;
+    width: 40px;
+	border: none;
+	border-radius: 30px !important;
+	cursor: pointer;
+	background: e9e9e9;
+}
+
+.space{
+	margin-right: 10px ;
+	
+}
+
+.check1{
+	margin-right: 10px ;
+	color: #ff652f !important;
+}
+
+.list1{
+	list-style: none;
+	margin: 10px !important;
+}
+
+.list{
+	font-family: Cinzel;
+	font-weight: bold;
+	margin-right: 20px !important;
+}
+
+.heading{
+	font-family: Cinzel;
+	text-align: center;
+}
